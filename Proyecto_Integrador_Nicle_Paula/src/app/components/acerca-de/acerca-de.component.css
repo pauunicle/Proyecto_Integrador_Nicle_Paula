@@ -1,0 +1,33 @@
+div{
+    background-color:aqua;
+    text-align: center;
+    top: 600 px;
+}
+/*etiqueta nombre*/
+#nombre{
+    font-weight: bold;
+margin-top: 30%;
+
+
+}
+/*estilo fotperfil*/
+@media (min-width: 576px){
+    #fotodeperfil{
+        position: absolute;
+        width: 18%;
+        border-radius: 50%;
+        box-shadow: 3px 3px 3px grey;
+        left: 1%;
+        top: 350px;
+    }
+ }
+ @media (max-width: 575px){
+    #fotodeperfil{
+        position: absolute;
+        width: 100%;
+        border-radius: 50%;
+        box-shadow: 5px 5px 5px grey;
+        left: 35%;
+        top: 630px;
+    }
+ }
