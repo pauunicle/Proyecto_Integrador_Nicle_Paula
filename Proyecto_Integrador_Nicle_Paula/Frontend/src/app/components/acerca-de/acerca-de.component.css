@@ -1,7 +1,8 @@
 div{
-    background-color:aqua;
+    background-color:black;
     text-align: center;
     top: 600 px;
+    color: white;
 }
 /*etiqueta nombre*/
 #nombre{
@@ -14,20 +15,18 @@ margin-top: 30%;
 @media (min-width: 576px){
     #fotodeperfil{
         position: absolute;
-        width: 18%;
+        width: 15%;
         border-radius: 50%;
-        box-shadow: 3px 3px 3px grey;
         left: 1%;
-        top: 350px;
+        top: 530px;
     }
  }
  @media (max-width: 575px){
     #fotodeperfil{
-        position: absolute;
+        
         width: 100%;
         border-radius: 50%;
-        box-shadow: 5px 5px 5px grey;
         left: 35%;
-        top: 630px;
+        top: 760px;
     }
  }
